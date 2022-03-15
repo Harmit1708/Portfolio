@@ -1,7 +1,7 @@
 import React from "react";
 import FileDownloadIcon from "@mui/icons-material/FileDownload";
 import { Navbar, Nav } from "react-bootstrap";
-import Resume from '../Files/Harmit_Sonani.docx'
+import Resume from '../Files/Harmit_Sonani.pdf'
 function Header() {
   return (
     <div>

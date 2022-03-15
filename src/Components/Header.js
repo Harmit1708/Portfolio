@@ -1,7 +1,7 @@
 import React from "react";
 import FileDownloadIcon from "@mui/icons-material/FileDownload";
 import { Navbar, Nav } from "react-bootstrap";
-
+import Resume from '../Files/Harmit_Sonani.docx'
 function Header() {
   return (
     <div>
@@ -23,10 +23,10 @@ function Header() {
               <Nav.Link href="#Work">Work</Nav.Link>
               <Nav.Link href="#Otherwork">Otherwork</Nav.Link>
               <Nav.Link href="#Contact">Contact</Nav.Link>
-              <Nav.Link href="https://docs.google.com/document/d/1TU5gij0Pb7tWv5_vOfNB1Hb-LYDOtb6T/edit?usp=sharing&ouid=101148657507401203918&rtpof=true&sd=true" download>
+              <a className="mt-2 text-light" href={Resume} download style={{textDecoration:"none"}}>
                 Resume 
                 <FileDownloadIcon />
-              </Nav.Link>
+              </a>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

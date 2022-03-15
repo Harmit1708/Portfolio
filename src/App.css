@@ -9,7 +9,7 @@ body{
 
 /* Animated Background */
 .area{
-    background: -webkit-linear-gradient(to left, black, whitesmoke);  
+    background: -webkit-linear-gradient(to left, black, black);  
     width: 100%;
 }
 .circles{

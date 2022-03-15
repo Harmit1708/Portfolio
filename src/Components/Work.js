@@ -59,10 +59,10 @@ function Work() {
             <p className="text-center mt-3">Port Folio</p>
             <div className="d-flex justify-content-center">
             <Link to="" target="_blank">
-              <a href="/" target="_blank" rel="noreferrer" style={{marginRight:"10px",color:"white"}}><GitHubIcon/></a>
+              <a href="/https://github.com/Harmit1708/Portfolio" target="_blank" rel="noreferrer" style={{marginRight:"10px",color:"white"}}><GitHubIcon/></a>
             </Link>
             <Link to="" target="_blank">
-              <a href="/" target="_blank" rel="noreferrer" style={{marginRight:"10px",color:"white"}}><OpenInNewIcon/></a>
+              <a href="https://portfolio1708.netlify.app/" target="_blank" rel="noreferrer" style={{marginRight:"10px",color:"white"}}><OpenInNewIcon/></a>
             </Link>
             </div>
             </div>

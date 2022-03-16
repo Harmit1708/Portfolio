@@ -1,52 +1,249 @@
 import React from "react";
-import GitHubIcon from '@mui/icons-material/GitHub';
-import OpenInNewIcon from '@mui/icons-material/OpenInNew';
-import Music from '../MainImages/Screenshot (156).png'
-import Healthcare from '../MainImages/Screenshot (157).png'
-import Rental from '../MainImages/Screenshot (162).png'
-import PortFolio from '../MainImages/Screenshot (163).png'
+
 function Work() {
   return (
-    <div className="container-fluid work" id="Work">
+    <div className="work" id="Work">
       <div className="work-info m-auto">
-        <h1 className="text-center">Some Things I've Built</h1>
+        <h1 className="text-center text-white">Some Things I've Built</h1>
         <p className="text-center text-muted">Most recent works</p>
-        <div className="working mt-auto bg-dark m-3 p-5 d-flex justify-content-center flex-wrap">
-          <div className="d-flex" style={{flexDirection:"column"}}>
-            <img className="proj" src={Music} alt="placeholder" style={{height:"250px",width:"300px",marginRight:"20px"}}></img>
-            <p className="text-center mt-3">Beat With Music</p>
-            <div className="d-flex justify-content-center">
-                <a href="https://github.com/Harmit1708/beatwithmusic" target="_blank" rel="noreferrer" style={{marginRight:"10px",color:"white"}}><GitHubIcon/></a>
-              <a href="https://beatwithmusic1.herokuapp.com/" target="_blank" rel="noreferrer" style={{marginRight:"10px",color:"white"}}><OpenInNewIcon/></a>
+        <div className="working mt-5">
+          <div></div>
+          <div
+            className="structure"
+            style={{ backgroundColor: "white", color: "black" }}
+          >
+            <div>
+              <img
+                className="d-flex mt-5"
+                src=""
+                alt=""
+                style={{ height: "180px", width: "180px", margin: "auto" }}
+              ></img>
+              <h4 className="text-center mt-4">Rental</h4>
+              <h5 className="text-center text-wrap mt-1">Description</h5>
+              <p className="text-center text-wrap ">
+                Hy i am harmit.i have make a one project inthis project this is
+                a rental project
+              </p>
+              <div className="text-center mt-2">
+                <h5 className="text-center text-wrap ">Technologies</h5>
+                <img
+                  className="mr-2 mt-1"
+                  src="https://img.icons8.com/color/48/000000/react-native.png"
+                  alt="react"
+                ></img>
+                <img
+                  className="mr-2 mt-1"
+                  src="https://img.icons8.com/color/48/000000/react-native.png"
+                  alt="react"
+                ></img>
+                <img
+                  className="mr-2 mt-1"
+                  src="https://img.icons8.com/color/48/000000/react-native.png"
+                  alt="react"
+                ></img>
+                <img
+                  className="mr-2 mt-1"
+                  src="https://img.icons8.com/color/48/000000/react-native.png"
+                  alt="react"
+                ></img>
+                <img
+                  className="mr-2 mt-1"
+                  src="https://img.icons8.com/color/48/000000/react-native.png"
+                  alt="react"
+                ></img>
+              </div>
+              <div className="text-center mt-4">
+                <a href="*" className="mr-3">
+                  FrontEnd
+                </a>
+                <a href="*" className="mr-3">
+                  Backend
+                </a>
+                <a href="*" className="mr-3">
+                  Demo
+                </a>
+              </div>
             </div>
           </div>
-            <div className="d-flex" style={{flexDirection:"column"}}>
-            <img className="proj" src={Healthcare} alt="placeholder" style={{height:"250px",width:"300px",marginRight:"20px"}}></img>
-            <p className="text-center mt-3">Healthcare Products</p>
-            <div className="d-flex justify-content-center">
-              <a href="https://github.com/Harmit1708/healthcare" target="_blank" rel="noreferrer" style={{marginRight:"10px",color:"white"}}><GitHubIcon/></a>
-              <a href="https://healthcareproducts0.netlify.app/" target="_blank" rel="noreferrer" style={{marginRight:"10px",color:"white"}}><OpenInNewIcon/></a>
+          <div></div>
+          <div
+            className="structure"
+            style={{ backgroundColor: "white", color: "black" }}
+          >
+            <div>
+              <img
+                className="d-flex mt-5"
+                src=""
+                alt=""
+                style={{ height: "180px", width: "180px", margin: "auto" }}
+              ></img>
+              <h4 className="text-center mt-4">Rental</h4>
+              <h5 className="text-center text-wrap mt-1">Description</h5>
+              <p className="text-center text-wrap ">
+                Hy i am harmit.i have make a one project inthis project this is
+                a rental project
+              </p>
+              <div className="text-center mt-2">
+                <h5 className="text-center text-wrap ">Technologies</h5>
+                <img
+                  className="mr-2 mt-1"
+                  src="https://img.icons8.com/color/48/000000/react-native.png"
+                  alt="react"
+                ></img>
+                <img
+                  className="mr-2 mt-1"
+                  src="https://img.icons8.com/color/48/000000/react-native.png"
+                  alt="react"
+                ></img>
+                <img
+                  className="mr-2 mt-1"
+                  src="https://img.icons8.com/color/48/000000/react-native.png"
+                  alt="react"
+                ></img>
+                <img
+                  className="mr-2 mt-1"
+                  src="https://img.icons8.com/color/48/000000/react-native.png"
+                  alt="react"
+                ></img>
+                <img
+                  className="mr-2 mt-1"
+                  src="https://img.icons8.com/color/48/000000/react-native.png"
+                  alt="react"
+                ></img>
+              </div>
+              <div className="text-center mt-4">
+                <a href="*" className="mr-3">
+                  FrontEnd
+                </a>
+                <a href="*" className="mr-3">
+                  Backend
+                </a>
+                <a href="*" className="mr-3">
+                  Demo
+                </a>
+              </div>
             </div>
+          </div>
+          <div></div>
+          <div
+            className="structure"
+            style={{ backgroundColor: "white", color: "black" }}
+          >
+            <div>
+              <img
+                className="d-flex mt-5"
+                src=""
+                alt=""
+                style={{ height: "180px", width: "180px", margin: "auto" }}
+              ></img>
+              <h4 className="text-center mt-4">Rental</h4>
+              <h5 className="text-center text-wrap mt-1">Description</h5>
+              <p className="text-center text-wrap ">
+                Hy i am harmit.i have make a one project inthis project this is
+                a rental project
+              </p>
+              <div className="text-center mt-2">
+                <h5 className="text-center text-wrap ">Technologies</h5>
+                <img
+                  className="mr-2 mt-1"
+                  src="https://img.icons8.com/color/48/000000/react-native.png"
+                  alt="react"
+                ></img>
+                <img
+                  className="mr-2 mt-1"
+                  src="https://img.icons8.com/color/48/000000/react-native.png"
+                  alt="react"
+                ></img>
+                <img
+                  className="mr-2 mt-1"
+                  src="https://img.icons8.com/color/48/000000/react-native.png"
+                  alt="react"
+                ></img>
+                <img
+                  className="mr-2 mt-1"
+                  src="https://img.icons8.com/color/48/000000/react-native.png"
+                  alt="react"
+                ></img>
+                <img
+                  className="mr-2 mt-1"
+                  src="https://img.icons8.com/color/48/000000/react-native.png"
+                  alt="react"
+                ></img>
+              </div>
+              <div className="text-center mt-4">
+                <a href="*" className="mr-3">
+                  FrontEnd
+                </a>
+                <a href="*" className="mr-3">
+                  Backend
+                </a>
+                <a href="*" className="mr-3">
+                  Demo
+                </a>
+              </div>
             </div>
-            <div className="d-flex mt-5" style={{flexDirection:"column"}}>
-            <img className="proj" src={Rental} alt="placeholder" style={{height:"250px",width:"300px",marginRight:"20px"}}></img>
-            <p className="text-center mt-3">Rental Project <br></br><button className="btn btn-secondary mt-2" onClick={()=>{
-              alert(`Email : user@gmail.com ,Password : user@123`)
-            }}>Demo Credentials</button></p>
-            <div className="d-flex justify-content-center">
-              <a href="https://github.com/Harmit1708/RentalProject-front" target="_blank" rel="noreferrer" style={{marginRight:"10px",color:"white",textDecoration:"none"}}><GitHubIcon/>Front-end</a>
-              <a href="https://github.com/Harmit1708/RentalProject-back" target="_blank" rel="noreferrer" style={{marginRight:"10px",color:"white",textDecoration:"none"}}><GitHubIcon/>Back-end</a>
-              <a href="https://rental0.netlify.app/" target="_blank" rel="noreferrer" style={{marginRight:"10px",color:"white"}}><OpenInNewIcon/></a>
+          </div>
+          <div></div>
+          <div
+            className="structure"
+            style={{ backgroundColor: "white", color: "black" }}
+          >
+            <div>
+              <img
+                className="d-flex mt-5"
+                src=""
+                alt=""
+                style={{ height: "180px", width: "180px", margin: "auto" }}
+              ></img>
+              <h4 className="text-center mt-4">Rental</h4>
+              <h5 className="text-center text-wrap mt-1">Description</h5>
+              <p className="text-center text-wrap ">
+                Hy i am harmit.i have make a one project inthis project this is
+                a rental project
+              </p>
+              <div className="text-center mt-2">
+                <h5 className="text-center text-wrap ">Technologies</h5>
+                <img
+                  className="mr-2 mt-1"
+                  src="https://img.icons8.com/color/48/000000/react-native.png"
+                  alt="react"
+                ></img>
+                <img
+                  className="mr-2 mt-1"
+                  src="https://img.icons8.com/color/48/000000/react-native.png"
+                  alt="react"
+                ></img>
+                <img
+                  className="mr-2 mt-1"
+                  src="https://img.icons8.com/color/48/000000/react-native.png"
+                  alt="react"
+                ></img>
+                <img
+                  className="mr-2 mt-1"
+                  src="https://img.icons8.com/color/48/000000/react-native.png"
+                  alt="react"
+                ></img>
+                <img
+                  className="mr-2 mt-1"
+                  src="https://img.icons8.com/color/48/000000/react-native.png"
+                  alt="react"
+                ></img>
+              </div>
+              <div className="text-center mt-4">
+                <a href="*" className="mr-3">
+                  FrontEnd
+                </a>
+                <a href="*" className="mr-3">
+                  Backend
+                </a>
+                <a href="*" className="mr-3">
+                  Demo
+                </a>
+              </div>
             </div>
-            </div>
-            <div className="d-flex" style={{flexDirection:"column"}}>
-            <img className="proj " src={PortFolio} alt="placeholder" style={{height:"250px",width:"300px"}}></img>
-            <p className="text-center mt-3">Port Folio</p>
-            <div className="d-flex justify-content-center">
-              <a href="https://github.com/Harmit1708/Portfolio" target="_blank" rel="noreferrer" style={{marginRight:"10px",color:"white"}}><GitHubIcon/></a>
-              <a href="https://portfolio1708.netlify.app/" target="_blank" rel="noreferrer" style={{marginRight:"10px",color:"white"}}><OpenInNewIcon/></a>
-            </div>
-            </div>
+          </div>
+          <div></div>
         </div>
       </div>
     </div>

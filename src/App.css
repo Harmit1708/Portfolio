@@ -7,6 +7,9 @@ body{
     background-color: black;
 }
 
+.header{
+    z-index: 1;
+}
 /* Animated Background */
 .area{
     background: -webkit-linear-gradient(to left, black, black);  
@@ -20,6 +23,7 @@ body{
     width: 100%;
     height: 91.5%;
     overflow: hidden;
+    z-index: -1;
 }
 .circles li{
     position: absolute;
@@ -117,10 +121,13 @@ body{
     }
 }
 
+
+
+
 /* Home Page */
 .home{
     display: grid;
-    grid-template-columns:  6fr 6fr ;
+    grid-template-columns: 6fr 6fr;
     height: 100vh;
 }
 .card-img-top{
@@ -128,6 +135,7 @@ body{
   border-radius:3%;
   box-shadow: 0 0 18px goldenrod;
 }
+
 
 /* About page */
  .about{
@@ -148,11 +156,16 @@ body{
 }
 
 /* Skills */
+
 .Skills{
     display: grid;
-    grid-template-columns:12fr;
+    color: white ;
     color: white;
     height:100vh;
+}
+.skill{
+    display: grid;
+    grid-template-columns:8fr 8fr;
 }
 .One,.two,.three,.four{
     width:90%;
@@ -160,6 +173,23 @@ body{
 .five{
     width:85%;
 }
+.six{
+    width:70%;
+}
+
+.seven{
+    width:75%;
+}
+.eight{
+    width:75%;
+}
+.nine{
+    width:70%;
+}
+.ten{
+    width:60%;
+}
+
 
 /* Work page */
 .work{
@@ -170,51 +200,25 @@ body{
 }
 
 .working{
-    /* display: grid;
-    grid-template-columns:3fr 3fr 3fr 3fr; */
-    width:1400px;
-}
-
-.proj{
-    background-color: white;
-    height:350px;
-    width: 350px;
-    color: black;
-    margin: auto;
-    padding: 20px;
-}
-
-
-
-/* OtherWork */
-.otherwork{
     display: grid;
-    grid-template-columns:12fr;
-    color: white;
-    height:100vh;
+    grid-template-columns:1fr 3fr 1fr 3fr 1fr 3fr 1fr 3fr 1fr;
+     grid-template-columns: repeat(12);
+     margin: 0 auto;
+    /* width:100%; */
+
 }
 
-.otherworking{
-    display: grid;
-    grid-template-columns:3fr 3fr 3fr ;
-    grid-template-columns:repeat(autofill,1200px);
+.structure{
+    height:550px;
+    width:325px;
+}
 
-    width:1400px;
-}
-.proj{
-    background-color: white;
-    height:250px;
-    width: 250px;
-    color: black;
-    margin: auto;
-    padding: 20px;
-}
 
 
 /* Contact Page */
 .contact{
+    display: grid;
+    margin: auto;
     color: white; 
     height:100vh;
-    display:grid;
-    grid-template-columns: 12fr;
 }

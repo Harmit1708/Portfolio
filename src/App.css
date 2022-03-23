@@ -319,3 +319,10 @@ body {
     padding-left: 1rem;
   }
 }
+
+@media (max-width: 645px) {
+  .buttons-query{
+      padding-top:13.5rem;
+    padding-bottom:0.5rem;
+  }
+}

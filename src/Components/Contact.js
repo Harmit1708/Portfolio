@@ -2,21 +2,29 @@ import React from "react";
 import Contact_me from "../Images/contact_me.jpg";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import emailjs from 'emailjs-com'
+import emailjs from "emailjs-com";
 function Contact() {
+  function sendEmail(e) {
+    e.preventDefault();
 
-    function sendEmail(e){
-      e.preventDefault();
-  
-      emailjs.sendForm('service_bw9cdco', 'template_dpndk99', e.target, 'yBOTZXaKU9hsb1Ixw')
-        .then((result) => {
-            console.log(result.text);
-        }, (error) => {
-            console.log(error.text);
-        });
-        alert('Message sent successfully')
-        e.target.reset()
-    }
+    emailjs
+      .sendForm(
+        "service_bw9cdco",
+        "template_dpndk99",
+        e.target,
+        "yBOTZXaKU9hsb1Ixw"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    alert("Message sent successfully");
+    e.target.reset();
+  }
 
   return (
     <div className="contact" id="Contact">
@@ -61,10 +69,10 @@ function Contact() {
                 placeholder="Enter Message"
                 required
                 name="message"
-                />
+              />
 
               <input
-                type="submit" 
+                type="submit"
                 className="btn form-set mt-4 btn-success text-white text-center shadow-none"
                 style={{ width: "450px" }}
                 required
@@ -72,6 +80,7 @@ function Contact() {
               />
               <br></br>
             </form>
+            <div className="buttons-query">
               <a
                 href="https://www.linkedin.com/in/harmit-sonani"
                 target="_blank"
@@ -94,6 +103,7 @@ function Contact() {
                   &nbsp;Github
                 </button>
               </a>
+            </div>
           </div>
         </div>
       </div>

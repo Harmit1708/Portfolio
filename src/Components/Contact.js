@@ -1,32 +1,100 @@
 import React from "react";
-import Contact_me from '../Images/contact_me.jpg'
-
-
+import Contact_me from "../Images/contact_me.jpg";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import emailjs from 'emailjs-com'
 function Contact() {
 
-  let handleSubmit = () =>{
-
-  }
+    function sendEmail(e){
+      e.preventDefault();
   
+      emailjs.sendForm('service_bw9cdco', 'template_dpndk99', e.target, 'yBOTZXaKU9hsb1Ixw')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        alert('Message sent successfully')
+        e.target.reset()
+    }
+
   return (
     <div className="contact" id="Contact">
-      <div className="contact-info m-auto">
-        <h1 className="text-center contactme">Contact Me</h1>
+      <div className="m-auto">
+        <h1 className="text-center">Contact Me</h1>
         <p className="text-center text-muted lead">Get In Touch</p>
-        <div className="d-flex mt-5 justify-content-center flex-row" style={{gap: "10%"}}>
-        <div ><img src={Contact_me} alt="contactme" style={{height: "350px",width: "450px",borderRadius: "15px"}}></img></div>
-        <div className=" d-flex m-auto flex-column" style={{justifyContent:"center",alignItems: "center"}}>
-          <h3 className="mb-4">Say Hi!</h3>
-          <form>
-          <input className="form-control" style={{width: "450px"}} type="text" placeholder="Enter Your Name" required></input><br></br>
+        <div className="mt-5 contact-me" style={{ gap: "10%" }}>
+          <div>
+            <img
+              className="img-fluid contact-image"
+              src={Contact_me}
+              alt="contactme"
+              style={{ height: "350px", width: "450px", borderRadius: "15px" }}
+            ></img>
+          </div>
+          <div>
+            <h3 className="mb-3 hy-msg">Say Hi!</h3>
+            <form onSubmit={sendEmail} className="form-set">
+              <input
+                className="form-control form-set"
+                style={{ width: "450px" }}
+                type="text"
+                placeholder="Enter Your Name"
+                required
+                name="name"
+              />
+              <br></br>
+              <input
+                className="form-control form-set"
+                style={{ width: "450px" }}
+                type="email"
+                placeholder="Enter Your Email"
+                required
+                name="email"
+              />
+              <br></br>
 
-          <input className="form-control" style={{width: "450px"}} type="email" placeholder="Enter Your Email" required></input><br></br>
+              <input
+                className="form-control form-set"
+                style={{ width: "450px" }}
+                type="textarea"
+                placeholder="Enter Message"
+                required
+                name="message"
+                />
 
-          <input className="form-control" style={{width: "450px"}} type="textarea" placeholder="Enter Message" required></input>
-
-          <button className="btn mt-4 btn-success text-white text-center" onClick={()=>{handleSubmit()}} style={{width: "450px"}} required>Send<img src="https://img.icons8.com/fluency/344/filled-sent.png" alt="Send" style={{marginLeft:"5px",height:"24px",width:"24px",color:"white"}}></img></button>
-          </form>
-        </div>
+              <input
+                type="submit" 
+                className="btn form-set mt-4 btn-success text-white text-center shadow-none"
+                style={{ width: "450px" }}
+                required
+                value="Send Messsage"
+              />
+              <br></br>
+            </form>
+              <a
+                href="https://www.linkedin.com/in/harmit-sonani"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="linkdin"
+              >
+                <button className="btn mt-4 mr-2 btn-outline-secondary">
+                  <LinkedInIcon className="text-white linkdin" />
+                  &nbsp;Linkdin
+                </button>
+              </a>
+              &nbsp;&nbsp;
+              <a
+                href="https://github.com/Harmit1708"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="btn mt-4 btn-outline-secondary">
+                  <GitHubIcon className="text-white" />
+                  &nbsp;Github
+                </button>
+              </a>
+          </div>
         </div>
       </div>
     </div>

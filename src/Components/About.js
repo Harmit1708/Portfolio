@@ -1,6 +1,6 @@
 import React from "react";
 import FileDownloadIcon from "@mui/icons-material/FileDownload";
-import Resume from "../Files/Harmit_Sonani(1).pdf";
+import Resume from "../Files/Harmit_Sonani_2.pdf";
 
 function About() {
   return (

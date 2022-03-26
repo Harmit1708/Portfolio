@@ -9,18 +9,6 @@ function Home() {
   return (
     <>
       <div className="area" id="Home">
-      <ul className="circles">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li> 
-            </ul>
         <div className="home container-fluid">
           <div className="my-pic m-auto">
             <img

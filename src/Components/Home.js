@@ -8,7 +8,7 @@ import Mypic from "../Images/IMG_8932-01.jpeg";
 function Home() {
   return (
     <>
-      <div className="area" id="Home">
+      <div className="area" id="Home" >
         <div className="home container-fluid">
           <div className="my-pic m-auto">
             <img
@@ -19,9 +19,9 @@ function Home() {
           </div>
           <div className="text lead m-auto">
             <p className="text-light">Hi, My name is</p>
-            <h3 className="text-light display-3">Harmit Sonani.</h3>
-            <p className="text-muted display-6">Full Stack Developer.</p>
-            <p className="text-light text-wrap">
+            <h3 className="text-light display-3" style={{letterSpacing:"2px"}}>Harmit Sonani.</h3>
+            <p className="text-muted display-6" style={{letterSpacing:"2px"}}>Full Stack Developer.</p>
+            <p className="text-light text-wrap" style={{fontFamily:"serif",fontSize:"21px"}}>
               My profession is that of an Indian Full Stack Developer.<br></br>
               Full Stack Developers work on both the front and back ends of web
               applications.

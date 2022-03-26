@@ -16,7 +16,7 @@ function Work() {
         <div className="working mt-5 align-items-center">
           <div
             className="structure"
-            style={{ backgroundColor: "white", color: "black" }}
+            style={{ backgroundColor: "white", color: "black",borderRadius:"20px" }}
           >
             <div>
               <img
@@ -63,13 +63,13 @@ function Work() {
               </div>
               <br></br>
               <div className="text-center mt-4">
-                <a href="https://github.com/Harmit1708/Healthcare-frontend" target="_blank" rel="noopener noreferrer" className="mr-3">
+                <a href="https://github.com/Harmit1708/Healthcare-frontend" target="_blank" rel="noopener noreferrer" className="mr-3 btn shadow-none workbtnHover" style={{height:"40px",width:"90px",borderRadius:"25px",color:"white"}}>
                   FrontEnd
                 </a>
-                <a href="https://github.com/Harmit1708/Healthcare-backend" target="_blank" rel="noopener noreferrer" className="mr-3">
+                <a href="https://github.com/Harmit1708/Healthcare-backend" target="_blank" rel="noopener noreferrer" className="mr-3 btn shadow-none workbtnHover" style={{height:"40px",width:"90px",borderRadius:"25px",color:"white"}}>
                   Backend
                 </a>
-                <a href="https://623ab9266cc601000815d380--healthcare-products.netlify.app/"  target="_blank" rel="noopener noreferrer" className="mr-3">
+                <a href="https://623ab9266cc601000815d380--healthcare-products.netlify.app/"  target="_blank" rel="noopener noreferrer" className="btn shadow-none workbtnHover" style={{height:"40px",width:"90px",borderRadius:"25px",color:"white"}}>
                   Demo
                 </a>
               </div>
@@ -77,7 +77,7 @@ function Work() {
           </div>
           <div
             className="structure"
-            style={{ backgroundColor: "white", color: "black" }}
+            style={{ backgroundColor: "white", color: "black",borderRadius:"20px"  }}
           >
             <div>
               <img
@@ -123,13 +123,13 @@ function Work() {
               </div>
               <br></br>
               <div className="text-center mt-4">
-                <a href="https://github.com/Harmit1708/Rental-frontend" target="_blank" rel="noopener noreferrer" className="mr-3">
+                <a href="https://github.com/Harmit1708/Rental-frontend" target="_blank" rel="noopener noreferrer" className="mr-3 btn shadow-none workbtnHover" style={{height:"40px",width:"90px",borderRadius:"25px",color:"white"}}>
                   FrontEnd
                 </a>
-                <a href="https://github.com/Harmit1708/Rental-backend" target="_blank" rel="noopener noreferrer"  className="mr-3">
+                <a href="https://github.com/Harmit1708/Rental-backend" target="_blank" rel="noopener noreferrer"  className="mr-3 btn shadow-none workbtnHover" style={{height:"40px",width:"90px",borderRadius:"25px",color:"white"}}>
                   Backend
                 </a>
-                <a href="https://623ac02afdc3d971f4c9bf15--rental-prod.netlify.app/" target="_blank" rel="noopener noreferrer" className="mr-3">
+                <a href="https://623ac02afdc3d971f4c9bf15--rental-prod.netlify.app/" target="_blank" rel="noopener noreferrer" className="btn shadow-none workbtnHover" style={{height:"40px",width:"90px",borderRadius:"25px",color:"white"}}>
                   Demo
                 </a>
               </div>
@@ -138,7 +138,7 @@ function Work() {
 
           <div
             className="structure"
-            style={{ backgroundColor: "white", color: "black" }}
+            style={{ backgroundColor: "white", color: "black",borderRadius:"20px"  }}
           >
             <div>
               <img
@@ -184,13 +184,13 @@ function Work() {
               </div>
               <br></br>
               <div className="text-center mt-4">
-                <a href="https://github.com/Harmit1708/Gmailclone-frontend" target="_blank" rel="noopener noreferrer" className="mr-3">
+                <a href="https://github.com/Harmit1708/Gmailclone-frontend" target="_blank" rel="noopener noreferrer" className="mr-3 btn shadow-none  workbtnHover" style={{height:"40px",width:"90px",borderRadius:"25px",color:"white"}}>
                   FrontEnd
                 </a>
-                <a href="https://github.com/Harmit1708/Gmailclone-backend" target="_blank" rel="noopener noreferrer" className="mr-3">
+                <a href="https://github.com/Harmit1708/Gmailclone-backend" target="_blank" rel="noopener noreferrer" className="mr-3 btn shadow-none workbtnHover" style={{height:"40px",width:"90px",borderRadius:"25px",color:"white"}}>
                   Backend
                 </a>
-                <a href="https://623ac2bd411005701f61ba68--gmail-clone-app.netlify.app/"  target="_blank" rel="noopener noreferrer" className="mr-3">
+                <a href="https://623ac2bd411005701f61ba68--gmail-clone-app.netlify.app/"  target="_blank" rel="noopener noreferrer" className="btn shadow-none workbtnHover" style={{height:"40px",width:"90px",borderRadius:"25px",color:"white"}}>
                   Demo
                 </a>
               </div>
@@ -198,7 +198,7 @@ function Work() {
           </div>
           <div
             className="structure"
-            style={{ backgroundColor: "white", color: "black" }}
+            style={{ backgroundColor: "white", color: "black",borderRadius:"20px"  }}
           >
             <div>
               <img
@@ -243,14 +243,14 @@ function Work() {
                 ></img>
               </div>
               <br></br>
-              <div className="text-center mt-4">
-                <a href="https://github.com/Harmit1708/Beatwithmusic-frontend" target="_blank" rel="noopener noreferrer" className="mr-3">
+              <div className="text-center align-center mt-4">
+                <a href="https://github.com/Harmit1708/Beatwithmusic-frontend" target="_blank" rel="noopener noreferrer" className="mr-3 btn shadow-none text-black workbtnHover" style={{height:"40px",width:"90px",borderRadius:"25px",color:"white"}}>
                   FrontEnd
                 </a>
-                <a href="https://github.com/Harmit1708/Beatwithmusic-backend" target="_blank" rel="noopener noreferrer" className="mr-3">
+                <a href="https://github.com/Harmit1708/Beatwithmusic-backend" target="_blank" rel="noopener noreferrer" className="mr-3 btn shadow-none workbtnHover"  style={{height:"40px",width:"90px",borderRadius:"25px",color:"white"}}>
                   Backend
                 </a>
-                <a href="https://623ac5a4e896be0282d265ec--beatwithmusic.netlify.app/" target="_blank" rel="noopener noreferrer" className="mr-3">
+                <a href="https://623ac5a4e896be0282d265ec--beatwithmusic.netlify.app/" target="_blank" rel="noopener noreferrer" className="btn shadow-none workbtnHover"  style={{height:"40px",width:"90px",borderRadius:"25px",color:"white"}}  >
                   Demo
                 </a>
               </div>

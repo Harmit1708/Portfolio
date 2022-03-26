@@ -73,8 +73,8 @@ function Contact() {
 
               <input
                 type="submit"
-                className="btn form-set mt-4 btn-success text-white text-center shadow-none"
-                style={{ width: "450px" }}
+                className="btn form-set mt-4 btnHover text-white text-center shadow-none"
+                style={{ width: "450px",border:"3.5px solid #023b59"  }}
                 required
                 value="Send Messsage"
               />
@@ -87,7 +87,7 @@ function Contact() {
                 rel="noopener noreferrer"
                 className="linkdin"
               >
-                <button className="btn mt-4 mr-2 btn-outline-secondary">
+                <button className="btn mt-4 btnHover mr-2 text-white" style={{border:"3.5px solid #023b59" }}>
                   <LinkedInIcon className="text-white linkdin" />
                   &nbsp;Linkdin
                 </button>
@@ -98,7 +98,7 @@ function Contact() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="btn mt-4 btn-outline-secondary">
+                <button className="btn mt-4 btnHover mr-2 text-white" style={{border:"3.5px solid #023b59" }}>
                   <GitHubIcon className="text-white" />
                   &nbsp;Github
                 </button>

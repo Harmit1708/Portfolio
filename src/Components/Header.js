@@ -6,18 +6,18 @@ function Header() {
       <Navbar
           collapseOnSelect
           expand="lg"
-          className=" text-dark col-md-12 header position-fixed"
-          style={{backgroundColor:"#f2cb1f",color:"black",letterSpacing:"2px"}}
+          className=" col-md-12 header position-fixed"
+          style={{backgroundColor:"#023b59",letterSpacing:"2px"}}
         >
-          <Navbar.Brand href="#Home" >H@rmit</Navbar.Brand>
+          <Navbar.Brand href="#Home" className="text-white">H@rmit</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav ">
             <Nav className="ml-auto">
-              <Nav.Link href="#Home">Home</Nav.Link>
-              <Nav.Link href="#about">About</Nav.Link>
-              <Nav.Link href="#skills">Skills</Nav.Link>
-              <Nav.Link href="#Work">Work</Nav.Link>
-              <Nav.Link href="#Contact">Contact</Nav.Link>
+              <Nav.Link href="#Home" className="text-white">Home</Nav.Link>
+              <Nav.Link href="#about" className="text-white">About</Nav.Link>
+              <Nav.Link href="#skills" className="text-white">Skills</Nav.Link>
+              <Nav.Link href="#Work" className="text-white">Work</Nav.Link>
+              <Nav.Link href="#Contact" className="text-white">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

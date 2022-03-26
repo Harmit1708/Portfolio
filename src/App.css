@@ -35,7 +35,7 @@ body {
 .card-img-top {
   width: 25rem !important;
   border-radius: 3%;
-  box-shadow: 0 0 18px #096ca1;
+  box-shadow: 0 0 18px whitesmoke;
 }
 
 /* About page */

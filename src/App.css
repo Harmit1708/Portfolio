@@ -8,6 +8,13 @@ body {
   color: white !important;
 }
 
+@media screen and (max-width: 1882px) {
+  body {
+    width: 100% !important;
+    height:100% !important;
+  }
+}
+
 /* Animated Background */
 .area {
   background: -webkit-linear-gradient(to left, black, black);
@@ -91,22 +98,71 @@ body {
 /* Work page */
 .work {
   display: flex !important;
+  justify-content: center !important;
+  z-index:99;
   padding-top:12.5rem;
   padding-bottom:13.5rem;
   color: white;
 }
 
+
 .working {
   display: flex !important;
-  
-  flex-direction: row ;
+  flex-wrap: wrap !important;
   justify-content: center !important;
-  gap: 30px !important;
+  z-index:99;
+  grid-gap: 85px;
+  gap:35px;
 }
 
+
+
+@media (max-width:700px){
+  .structure{
+    justify-content: center !important;
+    height:650px !important;
+    width:500px !important;
+  }
+  .workbtnHover{
+    justify-content: center !important;
+    font-size:15px !important;
+    height:50px !important;
+    width:120px !important;
+    padding:10px !important;
+  }
+} 
+
+@media (max-width:515px){
+  .structure{
+    height:650px !important;
+    width:425px !important;
+  }
+  .workbtnHover{
+    font-size:12px !important;
+    height:50px !important;
+    width:120px !important;
+    padding:10px !important;
+    margin-bottom: 10px;
+  }
+} 
+
+@media (max-width:425px){
+  .structure{
+    height:750px !important;
+    width:325px !important;
+  }
+  .workbtnHover{
+    font-size:12px !important;
+    height:50px !important;
+    width:120px !important;
+    padding:10px !important;
+    margin-bottom: 10px;
+  }
+} 
+
 .structure {
-  height: 550px;
-  width: 325px;
+  height: 600px;
+  width: 685px;
 }
 
 /* Contact Page */
@@ -257,3 +313,6 @@ body {
     padding-bottom:0.5rem;
   }
 }
+
+
+

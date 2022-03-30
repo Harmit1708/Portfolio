@@ -2,11 +2,13 @@ import React from "react";
 import ExpressJs from "../Images/express.png";
 import Mongodb from "../Images/mongodb.png";
 
-import Healthcare from '../Images/online-shopping (1).png';
-import Rent from '../Images/for-rent (1).png';
-import Gmail from '../Images/gmail (1).png';
-import Music from '../Images/musical-notes.png';
+import Healthcare from "../Images/HealtCare.png";
+import Rent from "../Images/rent.png";
+import Gmail from "../Images/gmail.png";
+import Music from "../Images/beatwithmusic.png";
 
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LanguageIcon from '@mui/icons-material/Language';
 function Work() {
   return (
     <div className="work" id="Work">
@@ -16,20 +18,75 @@ function Work() {
         <div className="working mt-5 align-items-center">
           <div
             className="structure"
-            style={{ backgroundColor: "white", color: "black",borderRadius:"20px" }}
+            id="run"
+            style={{ backgroundColor: "white", color: "black",borderRadius:"10px" }}
           >
             <div>
               <img
-                className="d-flex mt-5"
+                className="d-flex img-fluid"
                 src={Healthcare}
                 alt=""
-                style={{ height: "180px", width: "180px", margin: "auto" }}
+                style={{ height: "300px", width: "100%", margin: "0 auto" ,borderRadius:"10px"}}
               ></img>
-              <h4 className="text-center mt-4">Healthcare</h4>
+              <div className="m-2">
+              <h4 className="ml-2 mt-1">Healthcare (Full Stack)</h4>
+              <p className="ml-2">
+                A healthcare products website has all the features a possible
+                e-commerce website needs, including the ability to add products
+                to cart, accept payments with G-Pay and Razorpay, provide the
+                login flow, and show products by category. It is a very
+                straightforward website
+              </p>
               <br></br>
-              <div className="text-center mt-2">
-                <h5 className="text-center text-wrap ">Technologies</h5>
-                <br></br>
+              <div className="text-center">
+                <a
+                  href="https://github.com/Harmit1708/Healthcare-frontend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mr-3 p-2 btn fw-bold shadow-none workbtnHover"
+                  style={{
+                    fontSize:"20px",
+                    height: "50px",
+                    width: "150px",
+                    borderRadius: "25px",
+                    color: "white",
+                  }}
+                >
+                  <GitHubIcon/>&nbsp;FrontEnd
+                </a>
+                <a
+                  href="https://github.com/Harmit1708/Healthcare-backend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mr-3 p-2 btn fw-bold shadow-none workbtnHover"
+                  style={{
+                    fontSize:"20px",
+                    height: "50px",
+                    width: "150px",
+                    borderRadius: "25px",
+                    color: "white",
+                  }}
+                >
+                  <GitHubIcon/>&nbsp;Backend
+                </a>
+                <a
+                  href="https://healthcare-products.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn p-2 fw-bold shadow-none workbtnHover"
+                  style={{
+                    fontSize:"20px",
+                    height: "50px",
+                    width: "150px",
+                    borderRadius: "25px",
+                    color: "white",
+                  }}
+                >
+                  <LanguageIcon/>&nbsp;Demo
+                </a>
+              </div>
+              <br></br>
+              <div className="text-center">
                 <img
                   className=""
                   src="https://cdn-icons-png.flaticon.com/512/1126/1126012.png"
@@ -37,59 +94,107 @@ function Work() {
                   style={{ height: "48px", width: "48px" }}
                 ></img>
                 <img
-                  className="ml-1"
+                  className="ml-2"
                   src="https://img.icons8.com/color/48/000000/nodejs.png"
                   alt="node"
                   style={{ height: "48px", width: "48px" }}
                 ></img>
                 <img
-                  className="ml-1"
+                  className="ml-2"
                   src={Mongodb}
                   alt="mongodb"
                   style={{ height: "48px", width: "48px" }}
                 ></img>
                 <img
-                  className="ml-1"
+                  className="ml-2"
                   src={ExpressJs}
                   alt="express"
                   style={{ height: "48px", width: "68px" }}
                 ></img>
                 <img
-                  className="ml-1"
+                  className="ml-2"
                   src="https://mui.com/static/logo.png"
                   alt="mui"
                   style={{ height: "48px", width: "48px" }}
                 ></img>
               </div>
-              <br></br>
-              <div className="text-center mt-4">
-                <a href="https://github.com/Harmit1708/Healthcare-frontend" target="_blank" rel="noopener noreferrer" className="mr-3 btn shadow-none workbtnHover" style={{height:"40px",width:"90px",borderRadius:"25px",color:"white"}}>
-                  FrontEnd
-                </a>
-                <a href="https://github.com/Harmit1708/Healthcare-backend" target="_blank" rel="noopener noreferrer" className="mr-3 btn shadow-none workbtnHover" style={{height:"40px",width:"90px",borderRadius:"25px",color:"white"}}>
-                  Backend
-                </a>
-                <a href="https://623ab9266cc601000815d380--healthcare-products.netlify.app/"  target="_blank" rel="noopener noreferrer" className="btn shadow-none workbtnHover" style={{height:"40px",width:"90px",borderRadius:"25px",color:"white"}}>
-                  Demo
-                </a>
               </div>
             </div>
           </div>
           <div
             className="structure"
-            style={{ backgroundColor: "white", color: "black",borderRadius:"20px"  }}
+            style={{
+              backgroundColor: "white",
+              color: "black",
+              borderRadius: "20px",
+            }}
           >
             <div>
               <img
-                className="d-flex mt-5"
+                className="d-flex"
                 src={Rent}
                 alt=""
-                style={{ height: "180px", width: "180px", margin: "auto" }}
+                style={{ height: "300px", width: "100%", margin: "auto",borderRadius:"10px" }}
               ></img>
-              <h4 className="text-center mt-4">Rental</h4>
+              <div className="m-2">
+
+              <h4 className="ml-2 mt-1">Rental (Full Stack)</h4>
+              <p className="ml-2">The website allows the customer to
+rent the product of his choice by
+inserting the product into the cart,
+paying online, and picking up the
+product at our location
+</p>
               <br></br>
-              <div className="text-center mt-2">
-                <h5 className="text-center text-wrap ">Technologies</h5>
+              <br></br>
+              <div className="text-center">
+                <a
+                  href="https://github.com/Harmit1708/Rental-frontend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mr-3 p-2  btn fw-bold shadow-none workbtnHover"
+                  style={{
+                    fontSize:"20px",
+                    height: "50px",
+                    width: "150px",
+                    borderRadius: "25px",
+                    color: "white",
+                  }}
+                >
+                  <GitHubIcon/>&nbsp;FrontEnd
+                </a>
+                <a
+                  href="https://github.com/Harmit1708/Rental-backend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mr-3 p-2  btn fw-bold shadow-none workbtnHover"
+                  style={{
+                    fontSize:"20px",
+                    height: "50px",
+                    width: "150px",
+                    borderRadius: "25px",
+                    color: "white",
+                  }}
+                >
+                  <GitHubIcon/>&nbsp;Backend
+                </a>
+                <a
+                  href="https://rental-prod.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mr-3 p-2  btn fw-bold shadow-none workbtnHover"
+                  style={{
+                    fontSize:"20px",
+                    height: "50px",
+                    width: "150px",
+                    borderRadius: "25px",
+                    color: "white",
+                  }}
+                >
+                   <LanguageIcon/>&nbsp;Demo
+                </a>
+              </div>
+              <div className="text-center">
                 <br></br>
                 <img
                   className=""
@@ -98,59 +203,109 @@ function Work() {
                   style={{ height: "48px", width: "48px" }}
                 ></img>
                 <img
-                  className="ml-1"
+                  className="ml-2"
                   src="https://img.icons8.com/color/48/000000/nodejs.png"
                   alt="node"
                   style={{ height: "48px", width: "48px" }}
                 ></img>
                 <img
-                  className="ml-1"
-                  src={Mongodb}                  alt="mongodb"
+                  className="ml-2"
+                  src={Mongodb}
+                  alt="mongodb"
                   style={{ height: "48px", width: "48px" }}
                 ></img>
                 <img
-                  className="ml-1"
+                  className="ml-2"
                   src={ExpressJs}
                   alt="express"
                   style={{ height: "48px", width: "68px" }}
                 ></img>
                 <img
-                  className="ml-1"
+                  className="ml-2"
                   src="https://mui.com/static/logo.png"
                   alt="mui"
                   style={{ height: "48px", width: "48px" }}
                 ></img>
               </div>
-              <br></br>
-              <div className="text-center mt-4">
-                <a href="https://github.com/Harmit1708/Rental-frontend" target="_blank" rel="noopener noreferrer" className="mr-3 btn shadow-none workbtnHover" style={{height:"40px",width:"90px",borderRadius:"25px",color:"white"}}>
-                  FrontEnd
-                </a>
-                <a href="https://github.com/Harmit1708/Rental-backend" target="_blank" rel="noopener noreferrer"  className="mr-3 btn shadow-none workbtnHover" style={{height:"40px",width:"90px",borderRadius:"25px",color:"white"}}>
-                  Backend
-                </a>
-                <a href="https://623ac02afdc3d971f4c9bf15--rental-prod.netlify.app/" target="_blank" rel="noopener noreferrer" className="btn shadow-none workbtnHover" style={{height:"40px",width:"90px",borderRadius:"25px",color:"white"}}>
-                  Demo
-                </a>
-              </div>
             </div>
+              </div>
           </div>
 
           <div
             className="structure"
-            style={{ backgroundColor: "white", color: "black",borderRadius:"20px"  }}
+            style={{
+              backgroundColor: "white",
+              color: "black",
+              borderRadius: "10px",
+            }}
           >
             <div>
               <img
-                className="d-flex mt-5"
+                className="d-flex "
                 src={Gmail}
                 alt=""
-                style={{ height: "180px", width: "180px", margin: "auto" }}
+                style={{ height: "300px", width: "100%", margin: "auto",borderRadius:"10px" }}
               ></img>
-              <h4 className="text-center mt-4">Gmail Clone</h4>
+              <div className="m-2">
+
+              <h4 className="ml-2 mt-1">Gmail Clone (Full Stack)</h4>
+              <p className="ml-2">Gmail clone app is having all the
+necessary features like user can
+send the mail to another user.
+deleting the mail and adding the
+favorite mail as well as login system
+also</p>
               <br></br>
-              <div className="text-center mt-2">
-                <h5 className="text-center text-wrap ">Technologies</h5>
+              
+              <br></br>
+              <div className="text-center">
+                <a
+                  href="https://github.com/Harmit1708/Gmailclone-frontend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mr-3 p-2  btn fw-bold shadow-none workbtnHover"
+                  style={{
+                    fontSize:"20px",
+                    height: "50px",
+                    width: "150px",
+                    borderRadius: "25px",
+                    color: "white",
+                  }}
+                >
+                  <GitHubIcon/>&nbsp;FrontEnd
+                </a>
+                <a
+                  href="https://github.com/Harmit1708/Gmailclone-backend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mr-3 p-2  btn fw-bold shadow-none workbtnHover"
+                  style={{
+                    fontSize:"20px",
+                    height: "50px",
+                    width: "150px",
+                    borderRadius: "25px",
+                    color: "white",
+                  }}
+                >
+                  <GitHubIcon/>&nbsp;Backend
+                </a>
+                <a
+                  href="https://gmail-clone-app.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mr-3 p-2  btn fw-bold shadow-none workbtnHover"
+                  style={{
+                    fontSize:"20px",
+                    height: "50px",
+                    width: "150px",
+                    borderRadius: "25px",
+                    color: "white",
+                  }}
+                >
+                  <LanguageIcon/>&nbsp;Demo
+                </a>
+              </div>
+              <div className="text-center">
                 <br></br>
                 <img
                   className=""
@@ -159,58 +314,106 @@ function Work() {
                   style={{ height: "48px", width: "48px" }}
                 ></img>
                 <img
-                  className="ml-1"
+                  className="ml-2"
                   src="https://img.icons8.com/color/48/000000/nodejs.png"
                   alt="node"
                   style={{ height: "48px", width: "48px" }}
                 ></img>
                 <img
-                  className="ml-1"
-                  src={Mongodb}                  alt="mongodb"
+                  className="ml-2"
+                  src={Mongodb}
+                  alt="mongodb"
                   style={{ height: "48px", width: "48px" }}
                 ></img>
                 <img
-                  className="ml-1"
+                  className="ml-2"
                   src={ExpressJs}
                   alt="express"
                   style={{ height: "48px", width: "68px" }}
                 ></img>
                 <img
-                  className="ml-1"
+                  className="ml-2"
                   src="https://mui.com/static/logo.png"
                   alt="mui"
                   style={{ height: "48px", width: "48px" }}
                 ></img>
               </div>
-              <br></br>
-              <div className="text-center mt-4">
-                <a href="https://github.com/Harmit1708/Gmailclone-frontend" target="_blank" rel="noopener noreferrer" className="mr-3 btn shadow-none  workbtnHover" style={{height:"40px",width:"90px",borderRadius:"25px",color:"white"}}>
-                  FrontEnd
-                </a>
-                <a href="https://github.com/Harmit1708/Gmailclone-backend" target="_blank" rel="noopener noreferrer" className="mr-3 btn shadow-none workbtnHover" style={{height:"40px",width:"90px",borderRadius:"25px",color:"white"}}>
-                  Backend
-                </a>
-                <a href="https://623ac2bd411005701f61ba68--gmail-clone-app.netlify.app/"  target="_blank" rel="noopener noreferrer" className="btn shadow-none workbtnHover" style={{height:"40px",width:"90px",borderRadius:"25px",color:"white"}}>
-                  Demo
-                </a>
               </div>
             </div>
           </div>
           <div
             className="structure"
-            style={{ backgroundColor: "white", color: "black",borderRadius:"20px"  }}
+            style={{
+              backgroundColor: "white",
+              color: "black",
+              borderRadius: "10px"
+            }}
           >
             <div>
               <img
-                className="d-flex mt-5"
+                className="d-flex"
                 src={Music}
                 alt=""
-                style={{ height: "180px", width: "180px", margin: "auto" }}
+                style={{ height: "300px", width: "100%", margin: "auto" ,
+              borderRadius: "10px"}}
               ></img>
-              <h4 className="text-center mt-4">Beat With Music</h4>
+              <div className="m-2">
+
+              <h4 className="ml-2 mt-1 ">Beat With Music (Full Stack)</h4>
+              <p className="ml-2">beat with the song is an
+entertainment website users can
+listening favorite songs and take an
+enjoyment
+</p>
               <br></br>
-              <div className="text-center mt-2">
-                <h5 className="text-center text-wrap ">Technologies</h5>
+              <div className="text-center align-center mt-4">
+                <a
+                  href="https://github.com/Harmit1708/Beatwithmusic-frontend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mr-3 p-2  btn fw-bold shadow-none workbtnHover"
+                  style={{
+                    fontSize:"20px",
+                    height: "50px",
+                    width: "150px",
+                    borderRadius: "25px",
+                    color: "white",
+                  }}
+                >
+                  <GitHubIcon/>&nbsp;FrontEnd
+                </a>
+                <a
+                  href="https://github.com/Harmit1708/Beatwithmusic-backend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mr-3 p-2 btn fw-bold shadow-none workbtnHover"
+                  style={{
+                    fontSize:"20px",
+                    height: "50px",
+                    width: "150px",
+                    borderRadius: "25px",
+                    color: "white",
+                  }}
+                >
+                  <GitHubIcon/>&nbsp;Backend
+                </a>
+                <a
+                  href="https://beatwithmusic.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn p-2 fw-bold shadow-none workbtnHover"
+                  style={{
+                    fontSize:"20px",
+                    height: "50px",
+                    width: "150px",
+                    borderRadius: "25px",
+                    color: "white",
+                  }}
+                >
+                  <LanguageIcon/>&nbsp;Demo
+                </a>
+              </div>
+              <div className="text-center">
                 <br></br>
                 <img
                   className=""
@@ -219,42 +422,32 @@ function Work() {
                   style={{ height: "48px", width: "48px" }}
                 ></img>
                 <img
-                  className="ml-1"
+                  className="ml-2"
                   src="https://img.icons8.com/color/48/000000/nodejs.png"
                   alt="node"
                   style={{ height: "48px", width: "48px" }}
                 ></img>
                 <img
-                  className="ml-1"
-                  src={Mongodb}                  alt="mongodb"
+                  className="ml-2"
+                  src={Mongodb}
+                  alt="mongodb"
                   style={{ height: "48px", width: "48px" }}
                 ></img>
                 <img
-                  className="ml-1"
+                  className="ml-2"
                   src={ExpressJs}
                   alt="express"
                   style={{ height: "48px", width: "68px" }}
                 ></img>
                 <img
-                  className="ml-1"
+                  className="ml-2"
                   src="https://mui.com/static/logo.png"
                   alt="mui"
                   style={{ height: "48px", width: "48px" }}
                 ></img>
               </div>
-              <br></br>
-              <div className="text-center align-center mt-4">
-                <a href="https://github.com/Harmit1708/Beatwithmusic-frontend" target="_blank" rel="noopener noreferrer" className="mr-3 btn shadow-none text-black workbtnHover" style={{height:"40px",width:"90px",borderRadius:"25px",color:"white"}}>
-                  FrontEnd
-                </a>
-                <a href="https://github.com/Harmit1708/Beatwithmusic-backend" target="_blank" rel="noopener noreferrer" className="mr-3 btn shadow-none workbtnHover"  style={{height:"40px",width:"90px",borderRadius:"25px",color:"white"}}>
-                  Backend
-                </a>
-                <a href="https://623ac5a4e896be0282d265ec--beatwithmusic.netlify.app/" target="_blank" rel="noopener noreferrer" className="btn shadow-none workbtnHover"  style={{height:"40px",width:"90px",borderRadius:"25px",color:"white"}}  >
-                  Demo
-                </a>
-              </div>
             </div>
+              </div>
           </div>
         </div>
       </div>

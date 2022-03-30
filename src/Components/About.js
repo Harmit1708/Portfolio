@@ -1,6 +1,6 @@
 import React from "react";
 import FileDownloadIcon from "@mui/icons-material/FileDownload";
-import Resume from "../Files/Harmit_Sonani_2.pdf";
+import Resume from "../Files/Harmit_Sonani.pdf";
 
 function About() {
   return (
@@ -30,8 +30,8 @@ function About() {
       </div>
       <div className="m-auto">
         <img
-          className="rounded-circle about-image d-flex justify-content-center"
-          style={{ Width: "450px", height: "350px"}}
+          className="about-image about-image d-flex justify-content-center"
+          style={{ Width: "450px", height: "350px",borderRadius: "50%"}}
           src="https://content.techgig.com/thumb/msid-74548080,width-860,resizemode-4/4-essential-skills-every-NET-developer-must-possess.jpg?67629"
           alt="about"
         />

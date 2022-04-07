@@ -368,7 +368,7 @@ enjoyment
               <br></br>
               <div className="text-center align-center mt-4">
                 <a
-                  href="https://github.com/Harmit1708/bwm-frontend"
+                  href="https://github.com/Harmit1708/beat-frontend"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mr-3 p-2  btn fw-bold shadow-none workbtnHover"
@@ -383,7 +383,7 @@ enjoyment
                   <GitHubIcon/>&nbsp;FrontEnd
                 </a>
                 <a
-                  href="https://github.com/Harmit1708/bwm-backend"
+                  href="https://github.com/Harmit1708/beat-backend"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mr-3 p-2 btn fw-bold shadow-none workbtnHover"

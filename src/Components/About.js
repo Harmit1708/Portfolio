@@ -19,7 +19,7 @@ function About() {
           <a
             className="mt-2 btn text-light btnHover"
             target="_blank" rel="noopener noreferrer"
-            href={Resume}
+            href="https://drive.google.com/file/d/1tpXArWroKaROm1T66moAaYW5t_6cHPPA/view?usp=sharing"
             download
             style={{ textDecoration: "none",border:"3.5px solid #023b59" }}
           >

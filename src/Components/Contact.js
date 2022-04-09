@@ -89,7 +89,7 @@ function Contact() {
               >
                 <button className="btn mt-4 btnHover mr-2 text-white" style={{border:"3.5px solid #023b59" }}>
                   <LinkedInIcon className="text-white linkdin" />
-                  &nbsp;Linkdin
+                  &nbsp;Linkedin
                 </button>
               </a>
               &nbsp;&nbsp;
